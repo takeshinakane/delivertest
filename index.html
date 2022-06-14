@@ -3,6 +3,10 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="origin-trial" content="TOKEN_GOES_HERE">
+  const otMeta = document.createElement('meta');
+otMeta.setAttribute('http-equiv', 'origin-trial');
+otMeta.setAttribute('content', 'TOKEN_GOES_HERE');
+document.querySelector('head').appendChild(otMeta);
   <title>demopage</title>
   <meta name="viewport" content="width=device-width,initial-scale=1.0">https://github.com/takeshinakane/delivertest/blob/main/html
   <meta name="demo" content="demo">
