@@ -12,6 +12,9 @@
 <body>
 <script>
   const topics = await document.browsingTopics();
+  'browsingTopics' in document ?
+  console.log ('Document.browsingTopics() はこのページでサポートされています'):
+  console.log ('Document.browsingTopics() はこのページでサポートされていません');
   </script>
   
   <div class="wrapper">
